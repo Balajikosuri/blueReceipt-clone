@@ -1,0 +1,20 @@
+.tabs-bar {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+.tabs-bar li,
+a {
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+}
+
+.tabs-bar li .active {
+    background-color: transparent;
+    border-bottom: 4px solid rgb(78, 43, 255);
+
+    font-weight: bold;
+}

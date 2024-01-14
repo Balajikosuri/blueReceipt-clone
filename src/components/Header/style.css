@@ -1,0 +1,35 @@
+.mobile-header {
+    width: 100%;
+}
+
+.mobile-navbar {
+    display: none;
+}
+
+@media screen and (min-width:600px) {
+    .mobile-header {
+        display: none;
+        align-self: flex-start;
+
+    }
+}
+
+.menu-btn {
+    background-color: transparent;
+    border: none;
+
+}
+
+.mobile-navLinks-container .active {
+    color: firebrick;
+    font-weight: bold;
+}
+
+
+.navLink-item {
+    text-decoration: none;
+    color: #000200;
+    font-size: x-large;
+    display: flex;
+    align-items: center;
+}
