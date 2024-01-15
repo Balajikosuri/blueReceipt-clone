@@ -1,5 +1,14 @@
 # Getting Started with Create React App
 
+## sample: 
+##demo link : https://bluereceipt-clone.onrender.com
+
+![image](https://github.com/Balajikosuri/blueReceipt-clone/assets/123826865/9ae76e0e-a4c3-46c6-b82f-9372e0666e69)
+![image](https://github.com/Balajikosuri/blueReceipt-clone/assets/123826865/8d7e0dfa-7972-41e3-82a8-ab0e2e8d114d)
+![image](https://github.com/Balajikosuri/blueReceipt-clone/assets/123826865/7a07ecc3-2f60-4bfc-80d5-3c6fd228276a)
+![image](https://github.com/Balajikosuri/blueReceipt-clone/assets/123826865/727733aa-de29-40fb-abd9-1f20d63b1116)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
