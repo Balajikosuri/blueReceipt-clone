@@ -12,9 +12,13 @@ const Sidebar = () => {
   return (
     <div className="sidebar">
       {/*  */}
-      <ul className="sidebar-menu">
+      <ul className="sidebar_logo_search">
         <li>
-          <Link className="navLink-item app-logo" id="disable-hover" to="/dashboard">
+          <Link
+            className="navLink-item app-logo"
+            id="disable-hover"
+            to="/dashboard"
+          >
             <img
               src="https://assets.website-files.com/6076eab79e12ed151f2a03f6/6076eec561cd5d0f52ca83f8_Branding.svg"
               alt="logo"
@@ -29,6 +33,8 @@ const Sidebar = () => {
             placeholder="Search"
           />
         </li>
+      </ul>
+      <ul className="sidebar-menu">
         <hr />
         <li>
           <NavLink className="navLink-item" to="/dashboard">

@@ -5,6 +5,7 @@
     padding-top: 24px;
     padding-left: 20px;
     border-right: 2px solid rgb(197, 195, 195);
+    flex-shrink: 2;
 
 }
 
@@ -34,6 +35,17 @@
 
 }
 
+.sidebar_logo_search {
+    list-style: none;
+    margin-bottom: 12px;
+    padding: 4px;
+
+}
+
+.sidebar_logo_search li {
+    margin-bottom: 15px;
+}
+
 .sidebar-menu li {
     font-weight: 16px;
 }
@@ -54,8 +66,9 @@
 
 }
 
+
 .navLink-item span {
-    flex: 1 2;
+    flex: 0 1;
 }
 
 .sidebar-menu {
