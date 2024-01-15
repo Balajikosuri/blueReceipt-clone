@@ -7,12 +7,13 @@ import { PiArrowsLeftRightBold, PiLineSegmentsBold } from "react-icons/pi";
 import { SiCompilerexplorer } from "react-icons/si";
 import { TbCopy } from "react-icons/tb";
 import { Link, NavLink } from "react-router-dom";
+
 import "./style.css";
 const Sidebar = () => {
   return (
     <div className="sidebar">
       {/*  */}
-      <ul className="sidebar_logo_search">
+      <ul className="sidebar_logo_search mb-1">
         <li>
           <Link
             className="navLink-item app-logo"
@@ -28,77 +29,77 @@ const Sidebar = () => {
 
         <li>
           <input
-            className="searchbar disabled"
+            className="searchbar disabled mb-1"
             type="search"
             placeholder="Search"
           />
         </li>
       </ul>
+      <hr className="mb-1 mt-0" />
       <ul className="sidebar-menu">
-        <hr />
         <li>
           <NavLink className="navLink-item" to="/dashboard">
-            <FaDashcube size={26} />
+            <FaDashcube size={20} />
             <span className="ms-2">Dashboard</span>
           </NavLink>
         </li>
         <li>
           <NavLink className="navLink-item" to="/conversation">
-            <BiSolidConversation size={30} />
+            <BiSolidConversation size={22} />
             <span className="ms-2">Conversation</span>
           </NavLink>
         </li>
         <li>
           <NavLink className="navLink-item" to="/automations">
-            <SiCompilerexplorer size={26} />
+            <SiCompilerexplorer size={20} />
             <span className="ms-2">Automations</span>
           </NavLink>
         </li>
         <li>
           <NavLink className="navLink-item" to="/campaigns">
-            <CgList size={26} />
+            <CgList size={20} />
             <span className="ms-2">Campaigns</span>
           </NavLink>
         </li>
         <li>
           <NavLink className="navLink-item" to="/popup">
-            <TbCopy size={26} />
+            <TbCopy size={20} />
             <span className="ms-2">Popup</span>
           </NavLink>
         </li>
         <li>
           <NavLink className="navLink-item" to="/live-chat">
-            <BsFillChatHeartFill size={26} />
-            <span className="ms-2"> Live Chat</span>
+            <BsFillChatHeartFill size={18} className=" me-2" />
+            Live Chat
           </NavLink>
         </li>
         <li>
           <NavLink className="navLink-item" to="/segments">
-            <PiLineSegmentsBold size={26} />
+            <PiLineSegmentsBold size={20} />
             <span className="ms-2">Segments </span>
           </NavLink>
         </li>
         <li>
           <NavLink className="navLink-item" to="/integrations">
-            <PiArrowsLeftRightBold size={26} />
+            <PiArrowsLeftRightBold size={20} />
             <span className="ms-2"> Integrations</span>
           </NavLink>
         </li>
       </ul>
-      <hr />
-      <footer className="d-flex flex-row avatar-container">
+      {/* logged user avatar */}
+      <div className="d-flex flex-row avatar-container mb-1">
         <img
           className="user-avatar"
-          src="https://img.freepik.com/free-photo/indian-hindu-girl-traditional-violet-saree-sitting-cafe-table_627829-1989.jpg?size=626&ext=jpg&ga=GA1.1.406501541.1702974435&semt=ais"
+          src="https://img.freepik.com/free-photo/indian-hindu-girl-traditional-violet-saree-sitting-cafe-table_627829-1989.jpg?size=620&ext=jpg&ga=GA1.1.406501541.1702974435&semt=ais"
           alt="avatar"
         />
         <div className="ms-3">
-          <p className="mb-0 fw-6">
+          <p className="fw-6 user-name">
             <strong>Oguz Yagiz Kara</strong>
           </p>
-          <span className="text-secondary">Store Name</span>
+          <span className="text-secondary user-store-name">Store Name</span>
         </div>
-      </footer>
+      </div>
     </div>
   );
 };

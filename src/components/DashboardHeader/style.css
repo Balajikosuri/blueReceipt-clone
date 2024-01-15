@@ -68,3 +68,9 @@
     font-weight: 400;
     color: #666;
 }
+
+.avatar-container {
+    padding: 6px;
+    margin-top: auto;
+    margin-bottom: 20px;
+}
