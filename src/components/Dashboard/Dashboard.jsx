@@ -1,6 +1,5 @@
 import React from "react";
 import "./style.css";
-import StatsCard from "../StatsCard/StatsCard";
 import LiveChart from "../LineChart/LiveLineChart ";
 import Tabs from "../Tabs/Tabs";
 import DashboardHeader from "../DashboardHeader/DashboardHeader";

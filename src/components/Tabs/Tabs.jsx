@@ -1,9 +1,8 @@
 import React from "react";
 
 import "./style.css";
-import { NavLink, Outlet, useLocation, useParams } from "react-router-dom";
-import TabAutomations from "../TabAutomations/TabAutomations";
-import TabsRoutes from "../TabsRoutes/TabsRoutes";
+import { NavLink, Outlet } from "react-router-dom";
+
 
 const Tabs = () => {
   
