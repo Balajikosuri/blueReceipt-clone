@@ -1,0 +1,70 @@
+.Dashboard-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    /* background-color: gray; */
+    padding-right: 25px;
+    flex-wrap: wrap;
+    flex: 0 1 auto;
+    margin-bottom: 22px;
+}
+
+.avatar-notif-container {
+    position: relative;
+}
+
+.Dashboard-avatar {
+    height: 65px;
+    width: 65px;
+}
+
+.notification-badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(0, 42, 159);
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.date-day-desc {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.today-date-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: auto;
+
+    /* justify-content: flex-end; */
+}
+
+.transparent-btn {
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 6px;
+    border: 1px solid gray;
+    width: auto;
+    padding-left: 12px;
+}
+
+.Dashboard-header h2 {
+    font-size: 24px;
+    margin-bottom: 4px;
+}
+
+.date-day-desc {
+    font-size: 14px;
+    font-weight: 400;
+    color: #666;
+}
