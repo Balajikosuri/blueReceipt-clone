@@ -1,11 +1,10 @@
 import React from "react";
 import "./style.css";
 import StatsCard from "../StatsCard/StatsCard";
+import { getFormattedNumberSystem } from "../utils/utils";
 
 const StatsHeader = () => {
-  const getFormattedNumberSystem = (number) => {
-    return new Intl.NumberFormat("en-US").format(number);
-  };
+  
   return (
     <div className="stats_header">
       {/* revenue stats-card */}

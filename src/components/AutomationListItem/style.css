@@ -1,0 +1,42 @@
+.AutomationListItem {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 18px;
+    border: none;
+    /* border-radius: 13px; */
+
+    padding: 6px;
+    height: 80px;
+    flex: 1 1 auto;
+}
+
+.AutomationListItem-content {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.AutomationListItem {
+    font-size: 16px;
+
+}
+
+.AutomationListItem h5 {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.AutomationListItem p {
+    font-size: 14px;
+    color: #666;
+    margin-right: 16px;
+    text-align: end;
+}
+
+.AutomationListItem :active {
+    background-color: rgba(231, 237, 241, 0.852);
+}
+
+.AutomationListItem :not(.active) :hover {
+    background-color: rgba(231, 237, 241, 0.852);
+}

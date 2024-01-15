@@ -20,7 +20,9 @@ const ContentRoutes = () => {
     <div className="ContentRoutes">
       <Routes>
         <Route exact path="dashboard" element={<Dashboard />}>
-          <Route exact path="automations" element={<TabAutomations />}></Route>
+          <Route exact path="automations" element={<TabAutomations />}>
+            <Route exact path=":autId" element={<TabAutomations />}></Route>
+          </Route>
           <Route exact path="campaigns" element={<TabCampaigns />}></Route>
           <Route exact path="segments" element={<TabSegments />}></Route>
         </Route>

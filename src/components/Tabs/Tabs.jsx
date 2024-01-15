@@ -1,16 +1,17 @@
 import React from "react";
 
 import "./style.css";
-import { NavLink, Outlet, useLocation } from "react-router-dom";
+import { NavLink, Outlet, useLocation, useParams } from "react-router-dom";
 import TabAutomations from "../TabAutomations/TabAutomations";
 import TabsRoutes from "../TabsRoutes/TabsRoutes";
 
 const Tabs = () => {
+  
   return (
-    <div className="card card-body mt-4">
+    <div className="card card-body mt-4 mb-2">
       <ul className="tabs-bar">
         <li>
-          <NavLink className="navLinkItem" to={`automations`}>
+          <NavLink className="navLinkItem " to={`automations`}>
             Automations
           </NavLink>
         </li>
